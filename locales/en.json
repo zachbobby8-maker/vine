@@ -1,0 +1,73 @@
+{
+  "app": {
+    "kicker": "5iR / LIVE SYSTEM",
+    "title": "Braid Mesh Visualizer",
+    "brandLabel": "Braid Mesh Visualizer home",
+    "live": "LIVE PREVIEW",
+    "eyebrow": "UNIFIED SPACE-TIME MATRIX",
+    "headingFirst": "Tune the field.",
+    "headingSecond": "Watch it braid.",
+    "subtitle": "A real-time shader study in resonance, chromatic drift, and controlled disorder.",
+    "note": "GPU PARALLEL / 39,420 HZ PARITY LOCK",
+    "footer": "BRAID MESH / AN INSTRUMENT FOR EXPLORING RESONANCE",
+    "local": "ALL PROCESSING LOCAL"
+  },
+  "visualizer": {
+    "title": "COHERENT BRAID MESH",
+    "canvasLabel": "Animated generative braid mesh visualization",
+    "locked": "STATUS: LOCKED",
+    "entropySector": "ENTROPY SECTOR",
+    "caption": "A living field generated locally in your browser.",
+    "signal": "SIGNAL STABLE"
+  },
+  "status": {
+    "initializing": "INITIALIZING FIELD",
+    "locked": "FIELD LOCKED",
+    "paused": "FIELD PAUSED",
+    "unsupported": "WEBGL2 UNAVAILABLE",
+    "error": "SHADER ERROR"
+  },
+  "controls": {
+    "eyebrow": "FIELD PARAMETERS",
+    "title": "Shape the behavior",
+    "entropy": "STOCHASTIC SHIELD",
+    "phonon": "CHROMATIC SPLIT",
+    "syntropic": "DOMAIN WARP TURBULENCE",
+    "torsion": "TENSOR SPACE SHEAR",
+    "saved": "Your latest tuning is saved on this device."
+  },
+  "actions": {
+    "reset": "RESET",
+    "pause": "PAUSE FIELD",
+    "resume": "RESUME FIELD"
+  },
+  "theme": {
+    "white": "WHITE THEME",
+    "black": "BLACK THEME",
+    "switchToWhite": "Switch to the white theme",
+    "switchToBlack": "Switch to the black theme"
+  },
+  "readout": {
+    "eyebrow": "SYSTEM READOUT",
+    "title": "Live telemetry",
+    "pipeline": "PIPELINE",
+    "pipelineValue": "WEBGL2 / FRAGMENT",
+    "octaves": "FBM OCTAVES",
+    "channels": "COLOR CHANNELS",
+    "mode": "FIELD MODE",
+    "modeValue": "SYNTHROPIC",
+    "quote": "Order is not the absence of noise. It is what noise becomes when you give it a shape."
+  },
+  "social": {
+    "eyebrow": "ROUTING CHANNELS / INGEST NODE",
+    "ariaLabel": "Social links and featured writing",
+    "portfolio": "PORTFOLIO",
+    "x": "X STATION",
+    "medium": "MEDIUM",
+    "featured": "FEATURED INSIGHT / MEDIUM",
+    "essayTitle": "The Holographic Chiasm: Geometries of Reflection and Resonance"
+  },
+  "errors": {
+    "webgl": "WebGL2 is unavailable in this browser. Try a recent browser with hardware acceleration enabled."
+  }
+}
