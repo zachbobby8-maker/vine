@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050914">
+  <title>Braid Mesh Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" data-i18n-aria-label="app.brandLabel" aria-label="Braid Mesh Visualizer">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span><span class="brand-kicker" data-i18n="app.kicker">5iR / LIVE SYSTEM</span><strong data-i18n="app.title">Braid Mesh</strong></span>
+      </a>
+      <div class="topbar-actions">
+        <button class="theme-toggle" type="button" data-action="theme" aria-pressed="false" data-i18n-aria-label="theme.switchToWhite">
+          <span class="theme-toggle-mark" aria-hidden="true"></span>
+          <span data-theme-text data-i18n="theme.white">WHITE THEME</span>
+        </button>
+        <div class="topbar-meta"><span class="live-dot" aria-hidden="true"></span><span data-i18n="app.live">LIVE PREVIEW</span><span class="version">V6.1</span></div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow" data-i18n="app.eyebrow">UNIFIED SPACE-TIME MATRIX</p>
+          <h1 id="page-title"><span data-i18n="app.headingFirst">Tune the field.</span><br><em data-i18n="app.headingSecond">Watch it braid.</em></h1>
+          <p class="lede" data-i18n="app.subtitle">A real-time shader study in resonance, chromatic drift, and controlled disorder.</p>
+        </div>
+        <div class="intro-note"><span class="note-line"></span><span data-i18n="app.note">GPU PARALLEL / 39,420 HZ PARITY LOCK</span></div>
+      </section>
+
+      <section class="visualizer-card" aria-labelledby="visualizer-title">
+        <div class="card-bar">
+          <div><span class="status-mark" aria-hidden="true"></span><span id="visualizer-title" data-i18n="visualizer.title">COHERENT BRAID MESH</span></div>
+          <span class="card-state" data-status data-i18n="status.initializing">INITIALIZING FIELD</span>
+        </div>
+        <div class="viewport-wrap">
+          <canvas id="meshCanvas" data-i18n-aria-label="visualizer.canvasLabel" aria-label="Animated generative braid mesh visualization"></canvas>
+          <div class="viewport-overlay overlay-top"><span data-i18n="visualizer.locked">STATUS: LOCKED</span><b>F: 39,420 Hz</b></div>
+          <div class="viewport-overlay overlay-bottom"><span data-i18n="visualizer.entropySector">ENTROPY SECTOR</span><b id="entropyHud">10.6%</b></div>
+          <div class="unsupported" hidden data-i18n="errors.webgl">WebGL2 is unavailable in this browser. Try a recent browser with hardware acceleration enabled.</div>
+        </div>
+        <div class="card-footer"><span data-i18n="visualizer.caption">A living field generated locally in your browser.</span><span class="footer-signal">● <span data-i18n="visualizer.signal">SIGNAL STABLE</span></span></div>
+      </section>
+
+      <section class="workspace-grid">
+        <div class="panel controls-panel" aria-labelledby="controls-title">
+          <div class="section-heading"><div><p class="eyebrow" data-i18n="controls.eyebrow">FIELD PARAMETERS</p><h2 id="controls-title" data-i18n="controls.title">Shape the behavior</h2></div><button class="text-button" type="button" data-action="reset" data-i18n="actions.reset">RESET</button></div>
+          <div id="controls" class="controls-list"></div>
+          <button class="pause-button" type="button" data-action="pause"><span class="pause-icon" aria-hidden="true">Ⅱ</span><span data-i18n="actions.pause">PAUSE FIELD</span></button>
+          <p class="save-note" data-i18n="controls.saved">Your latest tuning is saved on this device.</p>
+        </div>
+        <aside class="panel readout-panel" aria-labelledby="readout-title">
+          <div class="section-heading"><div><p class="eyebrow" data-i18n="readout.eyebrow">SYSTEM READOUT</p><h2 id="readout-title" data-i18n="readout.title">Live telemetry</h2></div><span class="readout-icon" aria-hidden="true">⌁</span></div>
+          <div class="telemetry-list">
+            <div><span data-i18n="readout.pipeline">PIPELINE</span><strong data-i18n="readout.pipelineValue">WEBGL2 / FRAGMENT</strong></div>
+            <div><span data-i18n="readout.octaves">FBM OCTAVES</span><strong>04</strong></div>
+            <div><span data-i18n="readout.channels">COLOR CHANNELS</span><strong class="cyan-text">RGB / SPLIT</strong></div>
+            <div><span data-i18n="readout.mode">FIELD MODE</span><strong class="pink-text" data-i18n="readout.modeValue">SYNTHROPIC</strong></div>
+          </div>
+          <div class="readout-quote"><span>“</span><p data-i18n="readout.quote">Order is not the absence of noise. It is what noise becomes when you give it a shape.</p></div>
+        </aside>
+      </section>
+
+      <section id="socialPanel" class="panel social-panel" data-i18n-aria-label="social.ariaLabel" aria-label="Social links"></section>
+    </main>
+    <footer class="site-footer"><span data-i18n="app.footer">BRAID MESH / AN INSTRUMENT FOR EXPLORING RESONANCE</span><span data-i18n="app.local">ALL PROCESSING LOCAL</span></footer>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
